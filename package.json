@@ -1,0 +1,40 @@
+{
+  "name": "react-calendar",
+  "version": "1.0.0",
+  "description": "Simple calendar",
+  "main": "src/index.js",
+  "author": "Federico Cano <canofedericomartin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --silent",
+    "test:coverage": "jest --coverage",
+    "test:update": "jest -u",
+    "test:watch": "jest --watch",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.14.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.16.4"
+  }
+}
